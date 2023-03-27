@@ -30,6 +30,10 @@ def cubeNums(a):
     return a * a * a
 
 
+def isEven(a):
+    return a % 2 == 0
+
+
 def main():
     print(addNums(5, 4))
     print(multiplyNums(5, 4))
